@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChangeBackgroundColor</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <div class="container" id="cont">
+        <div class="content">
+            <h1>Change The Background Color Cliking by a Button</h1>
+            <div class="show" id="showbox">
+                <div class="hexcolor" id="hexcolor">
+                    <div class="hex-level" id="hex-level">
+                        <label for="hex">HEX Color</label>
+                    </div>
+                   <div class="hex-flex" id="hex-flex">
+                        <h4 class="hex-icon" id="hexIcon">#</h4>
+                        <input type="text" name="hexcode" id="hex" placeholder="000000">
+
+                        <button class="copybtn" id="copybtn">Copy</button>
+                        <!-- <p id="p" class="copiedanimation">Copied</p> -->
+                   </div> 
+                </div>
+                <div class="rabcolor" id="rgb-body">
+                    <div class="rgb-level"  id="rgb-level">
+                        <label for="rgb">RGB Color</label>
+                    </div>
+                    <div class="rgb-flex" id="rgb-flex">
+                        <div class="rgb-icon">Rgb</div>
+                        <input type="text" name="rgb" id="rgb" placeholder="255,255,255">
+                        <button class="copybtn2" id="copybtn2">Copy</button>
+                        <!-- <p id="p" class="copiedanimation">Copied</p> -->
+                    </div> 
+                </div>
+            </div>
+            <button class="btn" id="btn">Click</button>
+        </div>
+    </div>
+
+    <!-- Optional Javascript -->
+    <script src="./src/app.js"></script>
+</body>
+</html>
